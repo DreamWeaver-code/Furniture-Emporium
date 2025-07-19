@@ -3,8 +3,23 @@
   <head>
     <title>Furniture Emporium</title>
   </head>
+  <link rel="stylesheet" href="index.css" />
   <body>
+    <style>
+      
+     .flex-container{
+        display:flex;
+        background-color: darkslateblue;
+      }
+      .flex-container > div {
+        background-color: darkslateblue;
+        margin:100px;
+        padding: 20px;
+        font-size: 30px;
+      }
+      </style>
     <main>
+      <div>
       <header>
         <h1>Furniture Emporium</h1>
         <p>
@@ -12,7 +27,9 @@
           bring home.
         </p>
       </header>
-      <article>
+      </div>      
+      <article class="Title">
+        <div>
         <h2>Ergonomic Couch</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -20,10 +37,12 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$20.00 <s>$25.00</s></p>
+        <p class="Price">$20.00 <s>$25.00</s></p>
         <button>Add to cart</button>
       </article>
-      <article>
+    </div>
+    <div>
+      <article class="Title">
         <h2>Frozen Table</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -31,10 +50,12 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$49.95 <s>$60.00</s></p>
+        <p class="Price">$49.95 <s>$60.00</s></p>
         <button>Add to cart</button>
       </article>
-      <article>
+    </div>
+    <div>
+      <article class="Title">
         <h2>Handcrafted Chair</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -42,9 +63,10 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$18.99 <s>$32.99</s></p>
-        <button>Add to cart</button>
+        <p class="Price">$18.99 <s>$32.99</s></p>
+        <button class="">Add to cart</button>
       </article>
+      </div>
     </main>
   </body>
 </html>
